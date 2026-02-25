@@ -10,16 +10,15 @@ This project is built using a **MERN-style stack** for frontend and backend inte
 ## **Tech Stack**
 - **Frontend:** React.js, HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express.js  
-- **Database:** MongoDB (NoSQL) for CRUD operations  
-- **Tools:** GitHub, VS Code, Postman, Figma  
-- **Other Practices:** SQL, SDLC, Object-Oriented Programming, DBMS  
+- **Database:** MongoDB
 
 ---
 
 ## **Features**
 ### **User Features**
 - Browse available events by category: Music, Dance, Singing, Theatre, Workshop, Art Exhibition  
-- Book tickets securely using Stripe (demo/test keys only)  
+- Book tickets securely using Stripe (demo/test keys only) 
+- Use any card number example 4242 4242 4242 4242, MM/YY as some future reference 03/30 and CVV/ZIP as 123/12345 (dummy data)
 - Receive booking confirmations and event notifications  
 
 ### **Admin Features**
