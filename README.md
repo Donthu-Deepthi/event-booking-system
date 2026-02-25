@@ -19,7 +19,7 @@ This project is built using a **MERN-style stack** for frontend and backend inte
 ## **Features**
 ### **User Features**
 - Browse available events by category: Music, Dance, Singing, Theatre, Workshop, Art Exhibition  
-- Book tickets securely using Stripe/PayPal (demo/test keys only)  
+- Book tickets securely using Stripe (demo/test keys only)  
 - Receive booking confirmations and event notifications  
 
 ### **Admin Features**
@@ -48,3 +48,50 @@ event-booking-system/
 │   └── package-lock.json
 │
 └── README.md                 # Project documentation
+```
+
+## **Installation & Setup**
+
+### **Backend**
+1. Navigate to the backend folder:
+```bash
+cd backend
+```
+2.Install dependencies
+```bash
+npm install
+```
+install all the dependencies mentioned in package.json file at backend folder.
+
+3.Create a .env file
+```bash
+PORT=5000
+MONGODB_URI=<your-mongodb-uri>
+STRIPE_KEY=<your-stripe-test-key>
+JWT_SECRET_KEy=mysecretkeyexample123
+```
+4.Start the backend server
+```bash
+node server.js
+```
+### **Frontend**
+1. Navigate to the frontend folder:
+```bash
+cd frontend
+```
+2.Install dependencies:
+```bash
+npm install
+```
+3. Start the React app:
+```bash
+npm start
+```
+### Usage ###
+1. Open the frontend app in a browser (usually http://localhost:3000).
+
+2. Browse events by category.
+
+3. Admins can log in to manage events and view bookings.
+
+4. Users can book tickets and view confirmations.
