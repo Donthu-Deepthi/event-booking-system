@@ -11,21 +11,30 @@ This project is built using a **MERN-style stack** for frontend and backend inte
 - **Frontend:** React.js, HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB
+- **Payment Integration:** Stripe
 
 ---
 
 ## **Features**
 ### **User Features**
-- Browse available events by category: Music, Dance, Singing, Theatre, Workshop, Art Exhibition  
-- Book tickets securely using Stripe (demo/test keys only) 
-- Use any card number example 4242 4242 4242 4242, MM/YY as some future reference 03/30 and CVV/ZIP as 123/12345 (dummy data)
-- Receive booking confirmations and event notifications  
+- Browse events by category (Music, Dance, Theatre, Workshops, etc.)
+- View detailed event information
+- Secure ticket booking using Stripe (Test Mode)
+- View booking history
+- Receive notifications and confirmations
+
+**Stripe Test Card:**
+Card Number: 4242 4242 4242 4242
+Expiry: 03/30
+CVV: 123
+ZIP: 12345
 
 ### **Admin Features**
-- Manage events: add, update, delete events  
-- Set pricing and availability for each event  
-- Monitor bookings and manage users  
-- Send notifications/reminders to users  
+- Add, update, delete events
+- Set event pricing & availability
+- View and manage user bookings
+- Send notifications to users
+- Monitor event schedule
 
 ---
 
@@ -147,10 +156,8 @@ npm install
 npm start
 ```
 ### Usage ###
-1. Open the frontend app in a browser (usually http://localhost:3000).
-
-2. Browse events by category.
-
-3. Admins can log in to manage events and view bookings.
-
-4. Users can book tickets and view confirmations.
+1. Open the application in browser.
+2. Register/Login as user.
+3. Browse events.
+4. Book tickets via Stripe test payment.
+5. Admin can log in to manage events and view bookings.
