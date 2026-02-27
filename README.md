@@ -64,6 +64,8 @@ event-booking-system/
 ## Events Listing
 ![Events](screenshots/Events.png)
 
+---
+
 ![Events 2](screenshots/Events_2.png)
 
 ## Event Details
@@ -92,9 +94,20 @@ event-booking-system/
 
 ## Responsive Designs
 ![Responsive 1](screenshots/responsive-1.png)
+
+---
+
 ![Responsive 2](screenshots/responsive-2.png)
+
+---
+
 ![Responsive 3](screenshots/responsive-3.png)
+
+---
+
 ![Responsive 4](screenshots/responsive-4.png)
+
+---
 
 ## **Installation & Setup**
 
