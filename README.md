@@ -52,45 +52,45 @@ event-booking-system/
 
 # 📸 Screenshots
 
-## 🏠 Home Page
+## Home Page
 ![Home](screenshots/Home.png)
 
-## 🔐 Login Page
+## Login Page
 ![Login](screenshots/Login.png)
 
-## 📝 Register Page
+## Register Page
 ![Register](screenshots/Register.png)
 
-## 🎭 Events Listing
+## Events Listing
 ![Events](screenshots/Events.png)
 
 ![Events 2](screenshots/Events_2.png)
 
-## 📄 Event Details
+## Event Details
 ![Event Details](screenshots/Event_details.png)
 
-## 💳 Payment Page
+## Payment Page
 ![Payment](screenshots/Payment.png)
 
-## ✅ Booking Success
+## Booking Success
 ![Success](screenshots/Success.png)
 
-## 📅 My Bookings
+## My Bookings
 ![My Bookings](screenshots/my_bookings.png)
 
-## 🔔 Notifications
+## Notifications
 ![Notifications](screenshots/notifications.png)
 
-## 🛠️ Admin Dashboard
+## Admin Dashboard
 ![Admin Page](screenshots/Admin_Page.png)
 
-## ➕ Event Creation (Admin)
+## Event Creation (Admin)
 ![Event Creation](screenshots/events_creation.png)
 
-## 📆 Event Schedule
+## Event Schedule
 ![Event Schedule](screenshots/event_schedule.png)
 
-## 📱 Responsive Design
+## Responsive Designs
 ![Responsive 1](screenshots/responsive-1.png)
 ![Responsive 2](screenshots/responsive-2.png)
 ![Responsive 3](screenshots/responsive-3.png)
